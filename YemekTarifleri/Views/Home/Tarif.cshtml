@@ -1,0 +1,56 @@
+﻿@model Yemektarifleri.Models.TarifYorumlar
+
+@{
+    ViewData["Title"] = "Tarif";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h4>@Model.tarif.Yemekadi</h4>
+<h5>Kategori: @Model.tarif.Kategori.Kategoriadi</h5>
+<div>
+    @Html.Raw(Model.tarif.Tarif)<br />
+    @if (Model.yorumlar.Count > 0)
+    {
+        <h5>Yorumlar: </h5>
+    }
+    @* @foreach (var item in Model.yorumlar)
+    {
+        <b>@Html.Raw(item.Yorum)</b>
+
+        <br />
+        <small>@item.Uye.Adi @item.Uye.Soyadi tarafından @item.Eklemetarihi tarihinde gönderildi</small>
+
+        <br />
+    } *@
+</div>
+@using System.Security.Claims;
+@{
+    try
+    {
+        string kuladi = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (kuladi != null)
+        {
+            <form asp-action="YorumYap" asp-controller="Home" method="post">
+                <input type="hidden" id="UyeId" name="UyeId" value="@kuladi" />
+                <input type="hidden" id="TarifId" name="TarifId" value="@Model.tarif.TarifId" />
+                <textarea id="Yorum" name="Yorum"></textarea>
+                <input id="btnYorumGonder" type="submit" value="Yorum Gönder" />
+            </form>
+            @if (TempData["mesaj"] != null)
+            {
+                <div class="alert">
+                    @TempData["mesaj"]
+                </div>
+            }
+        }
+        else
+        {
+            <p>Lütfen yorum yapabilmek için giriş yapınız.</p>
+        }
+    }
+    catch (Exception ex)
+    {
+        <p>Bir hata oluştu: @ex.Message</p>
+    }
+}
+<a asp-action="TumTarifler">Geri</a>

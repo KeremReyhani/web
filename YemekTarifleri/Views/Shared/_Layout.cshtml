@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - YemekTarifleri</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/YemekTarifleri.styles.css" asp-append-version="true" />
+    <style>
+        button:focus {
+            outline: 0;
+        }
+
+        .navbar .dropdown-menu .form-control {
+            width: 200px;
+        }
+
+        .ml-35 {
+            margin-left: 35px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        @{
+                            yemektarifleriDbContext db = new yemektarifleriDbContext();
+                            var ustmenu = db.Menulers.Where(eleman => eleman.UstId == null && eleman.Silindi == false && eleman.Aktif == true)
+                            .OrderBy(e => e.Sira).ToList();
+                            foreach (var item in ustmenu)
+                            {
+                                var altmenu = db.Menulers.Where(eleman => eleman.UstId == item.MenuId && eleman.Silindi == false && eleman.Aktif == true)
+                                .OrderBy(e => e.Sira).ToList();
+                                if (altmenu.Count == 0)
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="@item.Link">@item.Baslik</a>
+                                    </li>
+                                }
+                                else
+                                {
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                           role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            @item.Baslik
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            @foreach (var item2 in altmenu)
+                                            {
+                                                <a class="dropdown-item" href="@item2.Link">@item2.Baslik</a>
+                                            }
+                                        </ul>
+                                    </li>
+                                }
+                            }
+                        }
+                    </ul>
+                    <ul class="nav navbar-nav flex-row justify-content-between ml-auto">
+                        @using System.Security.Claims;
+                        @{
+
+                            try
+                            {
+                                string kuladi = User.FindFirstValue(ClaimTypes.Email);
+
+                                if (kuladi != null)
+                                {
+                                    <li>
+                                        <div class="form-group">
+                                            <small>
+                                                Hoş Geldiniz @kuladi
+                                                <a href="/Giris/CikisYap" onclick="return confirm ('Çıkış Yapılsın Mı?')">Çıkış</a>
+                                            </small>
+                                        </div>
+                                    </li>
+                                }
+                                else
+                                {
+                                    throw new Exception();
+                                }
+                            }
+                            catch
+                            {
+                                <li class="dropdown order-1">
+                                    <button type="button" id="dropdownMenu1" data-bs-toggle="dropdown" class="btn btn-outline-secondary dropdown-toggle ml-35">Giriş <span class="caret"></span></button>
+                                    <ul class="dropdown-menu dropdown-menu-right mt-1">
+                                        <li class="p-3">
+                                            <form class="form" role="form" method="post" action="/Giris/GirisYap">
+                                                <div class="form-group">
+                                                    <input id="Eposta" placeholder="E-Posta" name="Eposta" class="form-control form-control-sm" type="text">
+                                                </div>
+                                                <div class="form-group">
+                                                    <input id="Parola" placeholder="Parola" name="Parola" class="form-control form-control-sm" type="password">
+                                                </div>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-primary btn-block">Giriş</button>
+                                                </div>
+                                                <div class="form-group text-xs-center">
+                                                    <small><a href="#">Parolamı Unuttum</a></small><br />
+                                                    <small><a href="#">Kaydol</a></small>
+                                                </div>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                            }
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - YemekTarifleri - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

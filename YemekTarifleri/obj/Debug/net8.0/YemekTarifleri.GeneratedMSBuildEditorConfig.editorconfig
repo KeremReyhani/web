@@ -1,0 +1,151 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Yemektarifleri
+build_property.RootNamespace = Yemektarifleri
+build_property.ProjectDir = C:\Users\kerem\Desktop\Programlama\Asp.Net Core MVC\YemekTarifleri\YemekTarifleri\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\kerem\Desktop\Programlama\Asp.Net Core MVC\YemekTarifleri\YemekTarifleri
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Giris/GirisYap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lyaXNcR2lyaXNZYXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Home/Tarif.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUYXJpZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Home/TumTarifler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUdW1UYXJpZmxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Shared/_yonetimtema.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF95b25ldGltdGVtYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/Bilgilerim.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxCaWxnaWxlcmltLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/KategoriEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxLYXRlZ29yaUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/KategoriGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxLYXRlZ29yaUd1bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/Kategoriler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxLYXRlZ29yaWxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/KategoriYemekler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxLYXRlZ29yaVllbWVrbGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/KullaniciEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxLdWxsYW5pY2lFa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/KullaniciGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxLdWxsYW5pY2lHdW5jZWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/Kullanicilar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxLdWxsYW5pY2lsYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/MenuEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxNZW51RWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/MenuGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxNZW51R3VuY2VsbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/Menuler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxNZW51bGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/SayfaEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxTYXlmYUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/SayfaGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxTYXlmYUdldGlyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/SayfaGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxTYXlmYUd1bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/Sayfalar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxTYXlmYWxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/TarifEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxUYXJpZkVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/TarifGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxUYXJpZkd1bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/Tarifler.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxUYXJpZmxlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Yonetim/Yorumlar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxZb3J1bWxhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kerem/Desktop/Programlama/Asp.Net Core MVC/YemekTarifleri/YemekTarifleri/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-qljo0d846h
